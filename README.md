@@ -1,5 +1,7 @@
 # 🚀 Stavily: Your Infrastructure's Autopilot
 
+<p align="center"><a href="https://github.com/Stavily/" target="_blank" rel="noopener noreferrer"><img src="images/logo_nobg_big.png?raw=true" alt="stavily logo" width="500" height="500"></a></p>
+
 > **"Automate your infrastructure, not your headaches."**
 
 ## ✨ Why Stavily?
