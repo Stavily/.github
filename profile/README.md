@@ -46,6 +46,17 @@ Stavily is especially useful for organizations that:
 
 <p align="center">ლ(¯ロ¯"ლ)</p>
 
+## Sample Workflow
+
+<p align="center">
+  <a href="https://stavily.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/Stavily/.github/blob/main/images/SampleWorkflow.png"
+         alt="sample workflow"/>
+  </a>
+</p>
+
+<p align="center">(￣▽￣)/</p>
+
 ## Key Capabilities
 
 * **Event-Driven Automation**: Stay ahead of problems by responding in real time.
