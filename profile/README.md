@@ -15,15 +15,17 @@
   ヾ(⌐■_■)ノ♪
 </p>
 
-## Why Choose Stavily?
+## Main Reason for Stavily?
 
 Running infrastructure shouldn’t feel like an endless cycle of firefighting. Stavily is an **event-driven automation platform** created to keep systems steady, secure, and cost-aware—without relying on engineers to push every button.
 
 Think of it as a co-pilot for your operations:
 
-* It notices problems the second they appear
+* It integrates with everything thanks to the plugin-based execution system
+* Notices problems the second they appear
 * Applies the correct fix immediately
 * Shares clear reports so your team is always in the loop
+* Anyone can develop any kind of plugin
 
 Instead of drowning in repetitive tasks, teams can finally redirect energy toward building, scaling, and innovating.
 
