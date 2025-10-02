@@ -1,15 +1,13 @@
 # Autopilot for Your Infrastructure
 
-
 <p align="center">
   <a href="https://stavily.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/Stavily/.github/blob/main/images/logo_nobg_big.png" 
-         alt="stavily logo" width="280" 
-         style="filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15)); border-radius:16px;"/>
+    <img src="https://github.com/Stavily/.github/blob/main/images/logo_nobg_big.png"
+         alt="stavily logo" width="280"/>
   </a>
 </p>
 
-<p align="center" style="font-size:18px; font-style:italic; color:#334155; margin-top:20px;">
+<p align="center">
   “Automate your infrastructure, not your headaches.”
 </p>
 
@@ -19,42 +17,42 @@
 
 ## Why Choose Stavily?
 
-Stavily is an **event-driven automation platform** designed to keep your infrastructure resilient, secure, and cost-effective, while reducing the constant need for manual intervention.
+Running infrastructure shouldn’t feel like an endless cycle of firefighting. Stavily is an **event-driven automation platform** created to keep systems steady, secure, and cost-aware—without relying on engineers to push every button.
 
-Think of it as a trusted autopilot for your systems:
+Think of it as a co-pilot for your operations:
 
-* It identifies problems the moment they arise
-* Executes the proper solution right away
-* Delivers full reports and insights back to your team
+* It notices problems the second they appear
+* Applies the correct fix immediately
+* Shares clear reports so your team is always in the loop
 
-For DevOps teams that want to stay productive and avoid wasting time on repetitive firefighting, Stavily provides the freedom to focus on building and scaling what really matters.
+Instead of drowning in repetitive tasks, teams can finally redirect energy toward building, scaling, and innovating.
 
 <p align="center">ヽ(￣ω￣(。。 )ゝ</p>
 
 ## Who Benefits From Stavily?
 
-Stavily is a great fit for teams that:
+Stavily is especially useful for organizations that:
 
-* Operate with small but capable groups of **2–10 engineers** who need automation at enterprise scale
-* Want to cut out repetitive, low-value infrastructure work
-* Must meet **strict compliance and GDPR obligations**
-* Need infrastructure that grows without requiring more headcount
+* Rely on **small but skilled DevOps groups (2–10 engineers)** who need automation with enterprise impact
+* Want to eliminate repetitive day-to-day infrastructure chores
+* Have to meet **compliance frameworks like GDPR** without adding extra complexity
+* Expect their infrastructure to scale without increasing headcount
 
 ## The Core Workflow: Detect → Act → Report
 
-1. **Detect**: Lightweight agents continuously monitor systems for key signals, such as CPU spikes, downtime, or storage limits.
-2. **Act**: Pre-configured workflows are triggered instantly, executing the right fix—whether that’s restarting services, scaling resources, or applying patches.
-3. **Report**: Teams receive immediate alerts, detailed logs, and compliance-ready audit trails so that nothing slips through the cracks.
+1. **Detect**: Agents quietly monitor for key signals—high CPU usage, downtime, disk pressure, and more.
+2. **Act**: As soon as an event is detected, workflows step in to apply the right fix, whether that’s restarting a service, freeing resources, or scaling out.
+3. **Report**: Every action comes with alerts, detailed logs, and compliance-friendly audit trails so nothing gets overlooked.
 
 <p align="center">ლ(¯ロ¯"ლ)</p>
 
 ## Key Capabilities
 
-* **Event-Driven Automation**: Respond in real time, not hours later.
-* **Extensible Plugin System**: Add functionality with plugins in Go, Python, JavaScript, or Rust.
-* **Lightweight Agents**: Small footprint, consuming less than 50MB RAM.
-* **Self-Healing Infrastructure**: Issues are resolved automatically before end-users ever notice.
-* **Intelligent Cost Control**: Avoid unnecessary spending and automatically optimize infrastructure usage.
+* **Event-Driven Automation**: Stay ahead of problems by responding in real time.
+* **Extensible Plugin System**: Extend with plugins built in Go, Python, JavaScript, or Rust.
+* **Lightweight Agents**: Small footprint, typically under 50MB RAM.
+* **Self-Healing Infrastructure**: Problems are solved automatically before customers notice.
+* **Intelligent Cost Control**: Keep expenses predictable and prevent waste.
 
 ## Practical Use Cases
 
@@ -63,7 +61,7 @@ Stavily is a great fit for teams that:
 ```yaml
 # Auto-remediation workflow
 When CPU > 90%:
-  - Analyze processes
+  - Analyze processes on afected machines
   - Kill problematic processes
   - Restart services
   - Send detailed report to team
@@ -93,6 +91,53 @@ Every day at 2 AM:
 
 <p align="center">(≖ ͜ʖ≖)</p>  
 
+## Business Workflow Automation
+
+### User Offboarding via ServiceNow
+
+```yaml
+# Automates IT tasks the moment a ticket is raised:
+When ServiceNow ticket = "User Offboarding":
+  - Extract username from ticket
+  - Call Active Directory API to disable account
+  - Remove user from cloud resources
+  - Log actions back into the ticket
+  - Mark ticket as resolved
+```
+
+### Slack-Based Approvals for Scaling
+
+```yaml
+# Infrastructure changes can require a human sign-off. Stavily connects directly with collaboration tools:
+When resource usage > 80%:
+  - Notify team in Slack channel
+  - Wait for "/approve scale-up" command
+  - If approved, scale out infrastructure
+  - Post confirmation message with logs
+```
+
+### Jira Ticket Triage and Automation
+
+```yaml
+# Save engineering hours by auto-sorting and enriching issues:
+When new Jira ticket created:
+  - Check component and severity tags
+  - Assign to correct team automatically
+  - Attach system logs from monitoring
+  - Comment with initial diagnostic summary
+```
+
+### Finance & Budget Enforcement
+
+```yaml
+# Tie infrastructure usage directly to budget policies:
+When monthly spend > defined budget:
+  - Alert finance team
+  - Identify top cost drivers
+  - Apply automated scale-down where safe
+  - Sync results to finance dashboard
+```
+
 ---
 
-[Stavily](https://stavily.com/) | [Documentation](https://docs.stavily.com) | [Start Now](https://stavily.com/login) 
+[Stavily](https://stavily.com/) | [Documentation](https://docs.stavily.com) | [Start Now](https://stavily.com/login)
