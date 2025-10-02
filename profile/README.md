@@ -49,7 +49,7 @@ Stavily is especially useful for organizations that:
 ## Sample Workflow
 
 <p align="center">
-  <a href="https://github.com/Stavily/.github/blob/main/images/SampleWorkflow.png?raw=true" target="_blank" rel="noopener noreferrer">
+  <a href="https://raw.githubusercontent.com/Stavily/.github/refs/heads/main/images/SampleWorkflow.png" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/Stavily/.github/blob/main/images/SampleWorkflow.png"
          alt="sample workflow"/>
   </a>
