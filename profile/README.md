@@ -15,21 +15,34 @@
   ヾ(⌐■_■)ノ♪
 </p>
 
+
 ## Main Reason for Stavily?
 
 Running infrastructure shouldn’t feel like an endless cycle of firefighting. Stavily is an **event-driven automation platform** created to keep systems steady, secure, and cost-aware—without relying on engineers to push every button.
 
-Think of it as a co-pilot for your operations:
+Imagine Stavily as your operations co-pilot:
 
-* It integrates with everything thanks to the plugin-based execution system
-* Notices problems the second they appear
-* Applies the correct fix immediately
-* Shares clear reports so your team is always in the loop
-* Anyone can develop any kind of plugin
+- It integrates seamlessly because every trigger, action, and output is plugin-based  
+- It detects issues the instant they arise  
+- It resolves the right steps instantly  
+- It delivers clear, contextual reports so your team stays informed  
+- And anyone—your team or the community—can write plugins to extend it  
 
-Instead of drowning in repetitive tasks, teams can finally redirect energy toward building, scaling, and innovating.
+No more drowning in tedious tasks. Instead, your team focuses on growth, innovation, and what really moves the needle.
 
 <p align="center">ヽ(￣ω￣(。。 )ゝ</p>
+
+## Stavily vs. Others
+
+Here’s how Stavily stacks up against other automation tools in real-world use cases:
+
+| Tool | Typical Use Focus | Key Limitations | Stavily’s Edge |
+|---|---|---|---|
+| **Jenkins** | CI/CD pipelines, build/test/deploy automation | Strong in delivery, weak in infra remediation or business workflows | Unifies infra, remediation, and business automation. |
+| **Ansible** | Configuration management, orchestration via playbooks | Good for infra, harder for business logic and complex workflows | Event-driven workflows cover infra + APIs. Outbound-only design removes need for SSH and reduces attack surface. |
+| **n8n** | Business automation, API integrations, workflow orchestration | Great for APIs, limited infra control | Combines n8n-style integrations with infra actions. |
+| **Zapier** | SaaS-to-SaaS automation, no-code workflows | Excellent for SaaS, not built for servers or patching | Works like Zapier for infra: plugins + remediation. |
+
 
 ## Who Benefits From Stavily?
 
